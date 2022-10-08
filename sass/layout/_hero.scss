@@ -1,0 +1,34 @@
+.hero {
+    text-transform:uppercase;
+    color: var(--brand-color-three);
+    background-color: #2F303A;
+    background-image: linear-gradient(rgba(35, 35, 41, 0.6), rgba(47, 48, 58, 0.4)), url(../images/studio.jpg);
+}
+
+.hero-box {
+    width: 700px;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.headline {
+    font-family: 'Roboto';
+    font-style: var(--brand-font-style);
+    @include font(44px, 900, 60px);
+   min-width: 696px;
+    margin-bottom: 30px;
+    }
+
+.cursor {
+    font-family: 'Roboto';
+    @include font(16px, 700, 30px);
+    color: var(--brand-color-three);
+    background-color: var(--brand-color);
+    padding: 10px 32px;
+    display: block;
+    min-width: 216px;
+    margin: 0 auto;
+    border-radius: 4px;
+    border: none;
+}
