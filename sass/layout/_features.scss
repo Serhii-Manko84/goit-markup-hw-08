@@ -1,222 +1,90 @@
 @media screen and (max-width: 767px) {
-
-
-.features-link {   
+  .features-link {
     display: block;
     list-style: none;
     padding: 0;
-}
+  }
 
-.features-link__pic {
+  .features-link__pic {
     display: block;
     width: 450px;
     min-height: 120px;
     text-align: center;
-    background: #F5F4FA;
+    background: #f5f4fa;
     border-radius: 4px;
     padding: 25px 0px;
     margin-bottom: 20px;
-} 
+  }
 
-.features-list__subject {
+  .features-list__subject {
     background-color: var(--brand-color-three);
     @include font(14px, 700, 16px);
     text-align: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-bottom: 10px;
-}
+  }
 
-.features-list__text {
+  .features-list__text {
     @include font(14px, 400, 24px);
     color: var(--brand-tekst-color);
     letter-spacing: 0.03em;
     margin-top: 0;
     margin-bottom: 30px;
+  }
 }
-}
-
-
-
 
 @media screen and (min-width: 768px) {
-        
-    
-    .features-link {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        padding: 0;
-        list-style: none;
-        gap: 30px;
-    }
-    
-    .features-link__icon {
-            flex-basis: calc((100% - 30px) / 2);
-            justify-content: center;
-            margin-bottom: 30px;
-        } 
+  .features-link {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+    list-style: none;
+    gap: 30px;
+  }
 
-    .features-link__pic {
-            display: flex;
-            justify-content: center;
-            padding: 25px 0;
-            margin: 0;
-            fill: var(--brand-color-two);
-            margin-right: 10px;
-            background: #F5F4FA;
-            border-radius: 4px;
-        }
+  .features-link__icon {
+    flex-basis: calc((100% - 30px) / 2);
+  }
 
-    .features-list__box {
-        display: block;
-        justify-content: space-between;
-       background: var(--brand-color-three);
-        }
+  .features-link__pic {
+    display: flex;
+    justify-content: center;
+    padding: 25px 0;
+    margin: 0;
+    fill: var(--brand-color-two);
+    margin-right: 10px;
+    background: #f5f4fa;
+    border-radius: 4px;
+    margin-bottom: 30px;
+  }
 
-        .features-list__subject {
-            @include font(14px, 700, 16px);
-            margin-bottom: 10px;
-        }
+  .features-list__box {
+    display: block;
+    justify-content: space-between;
+    background: var(--brand-color-three);
+  }
 
-        .features-list__text {
-            @include font(14px, 400, 24px);
-            letter-spacing: 0.03em;
-            color: var(--brand-tekst-color);
-        }
+  .features-list__subject {
+    @include font(14px, 700, 16px);
+    margin-bottom: 10px;
+  }
 
+  .features-list__text {
+    @include font(14px, 400, 24px);
+    letter-spacing: 0.03em;
+    color: var(--brand-tekst-color);
+  }
 }
 
+@media screen and (min-width: 1200px) {
+  
+  
 
-@media screen and (min-width: 768px) {
-
-    .features-link__icon {
-        flex-basis: calc((100% - 30px * 3) / 4);
-        justify-content: center;
-        margin-bottom: 30px;
-    } 
-
-
-
-
+  .features-link__icon {
+    flex-basis: calc((100% - 30px * 3) / 4);
+    justify-content: center;
+    margin-bottom: 30px;
+  }
 }
-        
-
-
-
-
-
-
-
-
-    
-        // .features-link__icon {
-        //     display: flex;
-        //     // width: 270px;
-        //     // min-height: 120px;
-        //     justify-content: center;
-        //     align-items: center;
-        //     background: #F5F4FA;
-        //     border-radius: 4px;
-        //     border: #F5F4FA;
-        //     margin-bottom: 30px;
-        // } 
-         
-    //     .container features-section {
-    //         display: flex;
-    //         flex-basis: calc((100% - 30px) / 2);
-
-    //     }
-
-    //     .features-link__icon {
-    //             display: flex;
-    //             width: 270px;
-    //             min-height: 120px;
-    //             justify-content: center;
-    //             align-items: center;
-    //             background: #F5F4FA;
-    //             border-radius: 4px;
-    //             border: #F5F4FA;
-    //             margin-bottom: 30px;
-    //     } 
-        
-    //     .features-link__pic {
-    //         display: flex;
-    //         fill: var(--brand-tekst-color);
-    //         margin-right: 10px;
-    //       }
-        
-    //     .features-list {
-    //         display: flex;
-    //         column-gap: 30px;
-    //         flex-wrap: nowrap;
-    //         flex-basis: calc((100% - 90px) / 4);
-    //       }
-        
-    //       .features-list__box {
-    //         min-width: 270px;
-    //       }
-        
-    //     .features-list__subject {
-    //         font-weight: 700;
-    //         font-size: 14px;
-    //         line-height: 1.14;
-    //         margin-bottom: 10px;
-    //     }
-            
-    //     .features-list__text {
-    //         line-height: 1.71;
-    //         color: var(--brand-tekst-color);
-    //     }
-
-    
-
-
-// .features-link {   
-//     display: flex;
-//     flex-basis: calc((100% - 90px) / 4);
-//     column-gap: 30px;
-//     flex-wrap: nowrap;
-// }
-    
-// .features-link__icon {
-//         display: flex;
-//         width: 270px;
-//         min-height: 120px;
-//         justify-content: center;
-//         align-items: center;
-//         background: #F5F4FA;
-//         border-radius: 4px;
-//         border: #F5F4FA;
-//         margin-bottom: 30px;
-// } 
-
-// .features-link__pic {
-//     display: flex;
-//     fill: var(--brand-tekst-color);
-//     margin-right: 10px;
-//   }
-
-// .features-list {
-//     display: flex;
-//     column-gap: 30px;
-//     flex-wrap: nowrap;
-//     flex-basis: calc((100% - 90px) / 4);
-//   }
-
-
-//   .features-list__box {
-//     min-width: 270px;
-//   }
-
-// .features-list__subject {
-//     font-weight: 700;
-//     font-size: 14px;
-//     line-height: 1.14;
-//     margin-bottom: 10px;
-// }
-    
-// .features-list__text {
-//     line-height: 1.71;
-//     color: var(--brand-tekst-color);
-// }
