@@ -131,6 +131,9 @@
         .header-navigation {
             display: flex;
             justify-content: center;
+            margin: 0;
+            padding: 30px;
+
         }
         
          .menu__item_active {
@@ -207,7 +210,28 @@
   }
 
 
+  @media screen and (min-width: 768px) {
+    
+    .header-navigation {
+        display: flex;
+        align-items: center;
+        padding: 0;
+    }
 
+
+    .contact {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            margin-top: 32px;
+            margin-bottom: 32px;
+    }
+
+
+
+
+  }
 // .header {
 //     border: 1px solid #ECECEC;
 

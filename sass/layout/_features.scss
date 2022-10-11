@@ -18,7 +18,7 @@
     background: #F5F4FA;
     border-radius: 4px;
     padding: 25px 0px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 } 
 
 .features-list__subject {
@@ -89,6 +89,21 @@
         }
 
 }
+
+
+@media screen and (min-width: 768px) {
+
+    .features-link__icon {
+        flex-basis: calc((100% - 30px * 3) / 4);
+        justify-content: center;
+        margin-bottom: 30px;
+    } 
+
+
+
+
+}
+        
 
 
 
