@@ -65,6 +65,7 @@
     display: block;
     margin-top: 302px;
     margin-bottom: 64px;
+    padding-left: 48px;
 
 }
 .contact-list__item {
@@ -90,10 +91,15 @@
     color: #757575;
 }
 
+.contact-sociale-box {
+    padding-left: 48px;
+}
+
 .contact-sociale {
     display: flex;
     gap: 20px;
     margin: 0;
+   
 }
 
 .contact-sociale__item {
@@ -105,6 +111,9 @@
     text-decoration: none;
     @include font(18px, 500, 22px);
     color: var(--brand-color);
+    padding: 0;
+   
+
 }
 
 

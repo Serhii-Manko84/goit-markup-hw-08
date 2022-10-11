@@ -1,10 +1,6 @@
     .job {
-        display: block;
         background: #F5F4FA;
-        width: 100%;
-        left: 0px;
-        background: #F5F4FA;
-        
+       
         }
         
         .heading {
@@ -12,7 +8,6 @@
         text-align: center;
         letter-spacing: 0.03em;
         color: var(--brand-color-two);
-        margin-top: 60px;
         margin-bottom: 30px;
         padding: 0;
         }
@@ -30,6 +25,11 @@
         box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
         border-radius: 0px 0px 4px 4px;
         margin-bottom: 30px;
+        }
+        
+        .jop-list__box {
+            margin-top: 30px;
+            margin-bottom: 24px;
         }
         
         
@@ -85,8 +85,7 @@
     background: #F5F4FA;
 }
 
-.job-list {
-    display: flex;
+.jop-list__item {
     gap: 30px;
     flex-wrap: wrap;
     flex-basis: calc((100% - 90px) / 4);
@@ -136,8 +135,8 @@
 
 
 .jop-list__box {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     text-align: center;
 }
 
