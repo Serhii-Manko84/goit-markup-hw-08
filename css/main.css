@@ -193,6 +193,50 @@ img {
     line-height: 1.175;
     color: var(--brand-color-two);
   }
+  .contact-list {
+    margin-top: 302px;
+  }
+  .contact-items {
+    margin-left: 40px;
+    margin-bottom: 64px;
+  }
+  .contact-list__item:not(:last-child) {
+    margin-bottom: 32px;
+  }
+  .contact-list__icon {
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 1.1764705882;
+    color: var(--brand-color);
+  }
+  .contact-list__icon-email {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.1666666667;
+    color: var(--brand-tekst-color);
+  }
+  .contact-sociale-box {
+    margin-left: 40px;
+  }
+  .contact-sociale {
+    display: flex;
+    gap: 10px;
+  }
+  .item-link::after {
+    content: "";
+    width: 0px;
+    height: 22px;
+    color: var(--brand-tekst-color);
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    transform: rotate(90deg);
+  }
+  .contact-list__link {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.2222222222;
+    color: var(--brand-color);
+    padding-right: 10px;
+  }
 }
 @media screen and (min-width: 768px) {
   .mobile-menu {
@@ -272,13 +316,6 @@ img {
   .Link__social-icon {
     margin-right: 10px;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-}
-@media screen and (min-width: 1200px) {
-  .header-navigation {
-    display: flex;
-    align-items: center;
-    padding: 0;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -363,13 +400,6 @@ img {
   .Link__social-icon {
     margin-right: 10px;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-}
-@media screen and (min-width: 1200px) {
-  .header-navigation {
-    display: flex;
-    align-items: center;
-    padding: 0;
   }
 }
 @media screen and (max-width: 767px) {
@@ -981,6 +1011,10 @@ img {
   .container-footer__navigation {
     display: flexbox;
   }
+  .client-mail__social {
+    width: 450px;
+    height: 50px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .container-footer {
@@ -1109,18 +1143,8 @@ img {
     flex-direction: inherit;
   }
   .client-mail__social {
-    width: 100%;
+    width: 358px;
     height: 50px;
-    left: 815px;
-    top: 2784px;
-    font-size: 16px;
-    line-height: 1.25;
-    padding: 15px;
-    color: rgba(255, 255, 255, 0.6);
-    background-color: #2f303a;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-    border-radius: 4px;
   }
   .client-mail__social:active {
     border: 1px solid rgba(255, 255, 255, 0.3);
